@@ -2,29 +2,41 @@ html {
   background-color: grey; /*remove when done, only here to not blind me while working */
 }
 
+body {
+  /*display: flex;*/
+}
+
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 li {
+  text-decoration: none;
   display: inline;
 }
 
-.nav {
-  display: flex;
+li .button {
+  display: inline;
 }
 
-#rightnav {
-  display: flex;
-  align-items: flex-end;
+#signin {
+  background-color: #4484f0;
+  border-color: #4484f0;
+  color: white;
 }
 
 .img {
   display: table;
-  margin: auto;
-  padding-top: 109px;
-  width: 272px;
-  height: 92px;
+  margin: 0 auto;
+  width: auto;
+}
+
+.search {
+  display: table;
+  margin: 0 auto;
+  width: auto;
 }
