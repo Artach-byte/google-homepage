@@ -1,42 +1,82 @@
 html {
-  background-color: grey; /*remove when done, only here to not blind me while working */
+	background-color: grey; /*remove when done, only here to not blind me while working */
 }
 
 body {
-  /*display: flex;*/
+	height: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
+a,
+ul,
 li {
-  text-decoration: none;
-  display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	color: #2f2f2f;
 }
 
-li .button {
-  display: inline;
+#apps {
+	border: 1px;
+	background: transparent;
 }
+
+header {
+	display: inline;
+}
+
+#leftnav {
+	display: flex;
+	align-self: start;
+}
+
 
 #signin {
-  background-color: #4484f0;
-  border-color: #4484f0;
-  color: white;
+	background-color: #4484f0;
+	border-color: #4484f0;
+	color: white;
+	width: 69.3167px;
+	height: 30px;
+	padding: 1px 1px 1px 1px;
 }
 
 .img {
-  display: table;
-  margin: 0 auto;
-  width: auto;
+	display: table;
+	margin: 0 auto;
+	width: 297px;
+	height: 92px;
+	padding: 109px 0px 0px 0px;
 }
 
 .search {
-  display: table;
-  margin: 0 auto;
-  width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: auto;
+	padding: 5px 14px 8px 0px;
+}
+
+input {
+	width: 527px;
+	height: 34px;
+	border-radius: 23px;
+	border-style: solid;
+}
+
+#apps {
+	border: 1px;
+	background: transparent;
+}
+
+#buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: auto;
+	margin: 11px;
+}
+
+.divider {
+	margin: 6px;
 }
