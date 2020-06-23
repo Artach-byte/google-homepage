@@ -15,20 +15,31 @@ li {
 	color: #2f2f2f;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 #apps {
 	border: 1px;
 	background: transparent;
 }
 
-header {
-	display: inline;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #leftnav {
 	display: flex;
-	align-self: start;
+	align-items: flex-start;
 }
 
+#rightnav {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
 
 #signin {
 	background-color: #4484f0;
@@ -75,6 +86,7 @@ input {
 	flex-direction: row;
 	width: auto;
 	margin: 11px;
+
 }
 
 .divider {
