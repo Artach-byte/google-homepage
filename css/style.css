@@ -1,9 +1,10 @@
-html {
-	background-color: grey; /*remove when done, only here to not blind me while working */
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-	height: 100%;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 a,
@@ -13,6 +14,8 @@ li {
 	list-style-type: none;
 	display: inline;
 	color: #2f2f2f;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 }
 
 a:hover {
@@ -25,14 +28,15 @@ a:hover {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #leftnav {
 	display: flex;
 	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 #rightnav {
@@ -86,9 +90,17 @@ input {
 	flex-direction: row;
 	width: auto;
 	margin: 11px;
-
+	
 }
 
 .divider {
 	margin: 6px;
+}
+
+footer {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	border-color: #f2f2f2;
 }
