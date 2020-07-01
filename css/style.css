@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /*body*/
@@ -105,14 +104,17 @@ input {
 /*footer*/
 
 #footer {
-	display: flex;
-	flex: 1;
+	border: #2f2f2f;
+	background-color: #f2f2f2;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
 }
 
 #leftbar {
-	display: flex;
-	flex: 1;
+	padding-left: 10px;
 }
 
 #rightbar {
+	padding-right: 40px;
 }
